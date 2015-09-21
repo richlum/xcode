@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0074892F1BAF778400668D80 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0074892E1BAF778400668D80 /* main.cpp */; };
+		007489371BAF782800668D80 /* shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 007489351BAF782800668D80 /* shape.cpp */; settings = {ASSET_TAGS = (); }; };
+		0074893A1BAF9B4B00668D80 /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 007489381BAF9B4B00668D80 /* square.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0074892B1BAF778400668D80 /* commandline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = commandline; sourceTree = BUILT_PRODUCTS_DIR; };
 		0074892E1BAF778400668D80 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		007489351BAF782800668D80 /* shape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shape.cpp; sourceTree = "<group>"; };
+		007489361BAF782800668D80 /* shape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = shape.hpp; sourceTree = "<group>"; };
+		007489381BAF9B4B00668D80 /* square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = square.cpp; sourceTree = "<group>"; };
+		007489391BAF9B4B00668D80 /* square.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = square.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0074892E1BAF778400668D80 /* main.cpp */,
+				007489351BAF782800668D80 /* shape.cpp */,
+				007489381BAF9B4B00668D80 /* square.cpp */,
+				007489391BAF9B4B00668D80 /* square.hpp */,
+				007489361BAF782800668D80 /* shape.hpp */,
 			);
 			path = commandline;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0074892F1BAF778400668D80 /* main.cpp in Sources */,
+				0074893A1BAF9B4B00668D80 /* square.cpp in Sources */,
+				007489371BAF782800668D80 /* shape.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +217,7 @@
 		007489331BAF778400668D80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Richard Lum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +225,7 @@
 		007489341BAF778400668D80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Richard Lum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
