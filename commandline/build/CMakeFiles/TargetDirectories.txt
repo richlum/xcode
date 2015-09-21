@@ -1,0 +1,3 @@
+/Users/richlum/xcode/commandline/commandline/build/CMakeFiles/square.o.dir
+/Users/richlum/xcode/commandline/commandline/build/CMakeFiles/testshape.dir
+/Users/richlum/xcode/commandline/commandline/build/CMakeFiles/shape.o.dir

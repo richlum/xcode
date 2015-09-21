@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/richlum/xcode/commandline/commandline/main.cpp
+iostream
+-
+square.hpp
+/Users/richlum/xcode/commandline/commandline/square.hpp
+shape.hpp
+/Users/richlum/xcode/commandline/commandline/shape.hpp
+vector
+-
+cstdlib
+-
+utility
+-
+
+/Users/richlum/xcode/commandline/commandline/shape.hpp
+string
+-
+iostream
+-
+
+/Users/richlum/xcode/commandline/commandline/square.hpp
+square.hpp
+/Users/richlum/xcode/commandline/commandline/square.hpp
+shape.hpp
+/Users/richlum/xcode/commandline/commandline/shape.hpp
+sstream
+-
+
